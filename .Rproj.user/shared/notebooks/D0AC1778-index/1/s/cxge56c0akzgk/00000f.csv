@@ -1,0 +1,21 @@
+"0","#| label: pre-procesamiento de bases"
+"2","Warning messages:
+"
+"2","1: "
+"2","In doTryCatch(return(expr), name, parentenv, handler) :"
+"2","
+ "
+"2"," reiniciar evaluación premisa interrumpida
+"
+"2","2: "
+"2","In doTryCatch(return(expr), name, parentenv, handler) :"
+"2","
+ "
+"2"," reiniciar evaluación premisa interrumpida
+"
+"0","library(sf)"
+"0","library(dplyr)"
+"0","library(ggplot2)"
+"0",""
+"0","source(""Brasil.R"")"
+"0","source(""Argentina.R"")"
