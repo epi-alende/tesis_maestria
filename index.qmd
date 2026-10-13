@@ -4,6 +4,8 @@ author: Juan Ignacio Irassar
 format: 
   html:
     embed-resources: false
+project:
+  output-dir: docs
 execute:
   echo: false
   message: false
@@ -345,7 +347,7 @@ mapa_coropletico =
                    providers$Esri.WorldGrayCanvas,
                    group = "StreetMap" ) %>%
   
-  setView(lng = -52.5, lat = -25.0, zoom = 5.5) %>%   # ajustar centro/zoom a Misiones+Corrientes
+  # setView(lng = -52.5, lat = -25.0, zoom = 5.5) %>%   # ajustar centro/zoom a Misiones+Corrientes
   
   addPolygons(
     fillColor = ~pal(tasa_mortalidad),

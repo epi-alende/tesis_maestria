@@ -1,0 +1,15 @@
+
+project:
+  output-dir: docs
+
+title: "Estudio ecológico HPV fronteras"
+author: "Juan Ignacio Irassar"
+
+format:
+  html:
+    embed-resources: false
+
+execute:
+  echo: false
+  message: false
+  warning: false
